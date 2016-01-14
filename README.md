@@ -13,3 +13,23 @@ public class helloword {
 	}
 }
 </pre>
+
+### foreach实现
+<pre>
+import java.util.*;
+
+class arr{
+	public static void foreach(){
+		float arr[] = new float[10];
+		Random value = new Random(50);
+		
+		for(int i = 0; i <= 9 ; i ++ ){
+			arr[i] = value.nextFloat();
+		}
+		
+		for(float x : arr){
+			System.out.println(x);
+		}
+	}
+}
+</pre>
