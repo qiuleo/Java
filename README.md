@@ -2,7 +2,6 @@
 ## 语法相关
 ### 第一个 `HellWord`
 <pre>
-package github;
 import java.util.*;
 
 public class helloword {
