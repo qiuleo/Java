@@ -153,17 +153,14 @@ b-------》3` ，这个3是共享存在的,a,b指向同一个地址，然后存�
 enum Spiciness {
 	NOT, MILD, MEDIUM, HOT, FLAMING
 }
-
 public class EnumClass {
 	EnumClass() {
 		this.order();
 	}
-
 	public void order() {
 		for (Spiciness s : Spiciness.values()) {
 			System.out.println("Spiciness enum value `" + s + "`, order is " + s.ordinal());
 		}
-
 	}
 }
 </pre>
